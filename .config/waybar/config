@@ -1,0 +1,31 @@
+{
+	"layer": "top",
+	"position": "top",
+	"height": 30,
+	"modules-left": [
+		"hyprland/workspaces",
+		"tray"
+	],
+	"modules-center": [
+		"hyprland/window"
+	],
+	"modules-right": [
+		"network",
+		"battery",
+		"clock"
+	],
+	"tray": {
+		"spacing": 10
+	},
+	"clock": {
+		"intercal": 60,
+		"format": "{:%H:%M}"
+	},
+	"battery": {
+		"format": "{capacity}"
+	},
+	"network": {
+		"format": "{ipaddr}",
+		"format-disconnectd": "Disconnected"
+	}
+}
