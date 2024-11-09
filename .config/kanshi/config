@@ -1,7 +1,7 @@
 profile home {
 	output eDP-1 {
-		mode --custom 1680x1050
-		position 1920,150
+		mode 1920x1200
+		position 1920,0
 	}
 	output DP-3 {
 		mode 1920x1200
