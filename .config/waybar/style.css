@@ -38,6 +38,7 @@ window#waybar {
 #battery,
 #network,
 #tray,
+#wireplumber,
 #idle_inhibitor {
 	padding: 0 10px;
 	margin: 6px 3px; 

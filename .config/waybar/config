@@ -11,6 +11,7 @@
 	],
 	"modules-right": [
 		"network",
+    "wireplumber",
 		"battery",
 		"clock"
 	],
@@ -22,10 +23,14 @@
 		"format": "{:%H:%M}"
 	},
 	"battery": {
-		"format": "{capacity}"
+		"format": "bat:{capacity}%"
 	},
+  "wireplumber": {
+    "format": "vol:{volume}%",
+    "on-click": "helvum"
+  },
 	"network": {
-		"format": "{ipaddr}",
+		"format": "net:{ipaddr}",
 		"format-disconnectd": "Disconnected"
 	}
 }
