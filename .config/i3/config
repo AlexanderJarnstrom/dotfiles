@@ -19,7 +19,9 @@ exec xinput set-prop "ASUE1209:00 04F3:319F Touchpad" "libinput Natural Scrollin
 
 # Monitors
 exec_always xrandr --output eDP-1 --mode 1680x1050 --output DP-1-0 --primary --auto --left-of eDP-1
-
+# Turn off screen saver
+exec_always xset s off
+exec_always -dpms
 
 # Wallpapers
 exec_always feh --bg-scale $HOME/.config/i3/wallpapers/wall1.jpg
